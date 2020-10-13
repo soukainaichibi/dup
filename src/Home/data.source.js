@@ -322,7 +322,7 @@ export const Feature80DataSource = {
                   {
                     name: 'content',
                     className: 'feature8-block-content',
-                    children: '沟通业务需求，对接人：诚凡、芸彩',
+                    children: 'Android software development is the process by which applications are created for devices running the Android operating system.',
                   },
                 ],
               },
@@ -351,7 +351,7 @@ export const Feature80DataSource = {
                     className: 'feature8-block-title',
                     children: (
                       <span>
-                        <p>brain storming</p>
+                        <p>Brainstorming</p>
                       </span>
                     ),
                   },
@@ -359,7 +359,7 @@ export const Feature80DataSource = {
                     name: 'content',
                     className: 'feature8-block-content',
                     children:
-                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      'Brainstorming combines a relaxed, informal approach to problem solving with lateral thinking. It encourages people to come up with thoughts and ideas that can, at first, seem a bit crazy.',
                   },
                 ],
               },
@@ -400,7 +400,7 @@ export const Feature80DataSource = {
                     name: 'content',
                     className: 'feature8-block-content',
                     children:
-                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      'A prototype is an early sample, model, or release of a product built to test a concept or process. It is a term used in a variety of contexts, including semantics, design, electronics, and software programming.',
                   },
                 ],
               },
@@ -437,7 +437,7 @@ export const Feature80DataSource = {
                     name: 'content',
                     className: 'feature8-block-content',
                     children:
-                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      'plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. ',
                   },
                 ],
               },

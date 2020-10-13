@@ -45,7 +45,7 @@
       display: inline-block;
       color: fade(@text-color, 45);
       transition: color .45s;
-      padding: 0 40px;
+      padding: 0 20px;
       position: relative;
       cursor: pointer;
 
@@ -99,7 +99,7 @@
     }
 
     &-child {
-      padding: 36px 24px 24px;
+      padding: 13px 11px 9px 9px;
       border-radius: 6px;
 
       height: 100%;
@@ -108,9 +108,10 @@
       &:hover {
         background-color: #f6f9ff;
         box-shadow: 0 12px 36px fade(#646488, 15);
-
+        
         .@{feature8}-block-content {
           opacity: 1;
+          
         }
       }
     }
@@ -124,6 +125,7 @@
       font-weight: 400;
       color: @text-color;
       margin-top: 16px;
+      text-align: center; 
     }
 
     &-content {
@@ -132,7 +134,7 @@
       line-height: 22px;
       color: fade(@text-color, 65);
       margin-top: 36px;
-      text-align: left;
+      text-align: center;
       transition: opacity @animate-duration @ease-in-out;
     }
 
