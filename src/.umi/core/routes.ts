@@ -1,17 +1,11 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from '/Users/mac/Desktop/dup/dupapp/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from '/Users/adileltalibi/Documents/dup/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
 export function getRoutes() {
-  const routes = [
-  {
-    "path": "/",
-    "exact": true,
-    "component": require('@/pages/index.js').default
-  }
-];
+  const routes = [];
 
   // allow user to extend routes
   plugin.applyPlugins({

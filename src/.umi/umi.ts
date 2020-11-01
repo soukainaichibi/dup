@@ -4,12 +4,12 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/mac/Desktop/dup/dupapp/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/mac/Desktop/dup/dupapp/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/adileltalibi/Documents/dup/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/adileltalibi/Documents/dup/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
-require('../global.less');
+
 
 const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin.applyPlugins({
   key: 'render',
@@ -37,7 +37,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.2.22',
+      version: '3.2.24',
     };
   
 
