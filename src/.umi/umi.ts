@@ -9,7 +9,7 @@ import { renderClient } from '/Users/adileltalibi/Documents/dup-1/node_modules/@
 import { getRoutes } from './core/routes';
 
 
-
+require('../global.less');
 
 const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin.applyPlugins({
   key: 'render',
